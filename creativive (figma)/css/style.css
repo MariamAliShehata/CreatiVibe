@@ -41,7 +41,7 @@ body {
 }
 
 .header{
-    background-image: url(/imgs/background.jpg);
+    background-image: url(../imgs/background.jpg);
     background-position: center;
     background-size: cover;
     
@@ -63,5 +63,6 @@ body {
 .stars{
     color: var(--bs-stars-color);
 }
+
 
 

@@ -1,0 +1,67 @@
+
+:root{
+    --bs-main-color :#F97316;
+    --bs-main-font: "Poppins", sans-serif;
+    --bs-secondary-font: "Dela Gothic One", sans-serif;
+    --bs-secondary-bg:rgba(243, 244, 246, 1);
+    --bs-green :rgba(16, 185, 129, 1);
+    --bs-stars-color:rgba(250, 204, 21, 1);
+    
+}
+body {
+    overflow-x: hidden;
+}
+
+.main-font{
+    font-family: var(--bs-main-font);
+}
+.secondary-font{
+    font-family: var(--bs-secondary-font);
+}
+.main-color{
+    color: var(--bs-main-color);
+}
+.btn-main{
+    background-color: var(--bs-main-color) ;
+}
+.btn-main:hover{
+    background-color: #a64601;
+}
+.main-bg{
+    background-color: var(--bs-main-color);
+}
+.navbar-brand:hover{
+    color: #a64601 ;
+}
+.secondary-bg{
+    background-color: var(--bs-secondary-bg);
+}
+.green{
+    color: var(--bs-green);
+}
+
+.header{
+    background-image: url(/imgs/background.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.nav-overlay{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.075) 0%, rgba(0, 0, 0, 0.25) 100%);
+
+}
+.overlay{
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.65) 65.78%, rgba(0, 0, 0, 0.85) 100%);;
+}
+.card-overlay{
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.32) 100%);
+
+}
+.translate{
+    transform: translate(18px, 18px);
+}
+.stars{
+    color: var(--bs-stars-color);
+}
+
+
